@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wikipedia</title>
+    <link rel="stylesheet" href="wiki.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">
+        <img
+          src="Wikipedia-logo-v2-hu.svg.png"
+          id="wikilogo"
+          alt="Wikipedia logo"
+        />
+        <ul class="sidebar">
+          <li>
+            <a
+              href="https://hu.wikipedia.org/wiki/Kezd%C5%91lap"
+              title="A kezdőlap megtekintése"
+              >Kezdőlap</a
+            >
+          </li>
+          <li>
+            <a href="https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:Tartalom"
+              >Tartalom</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:Kiemelt_sz%C3%B3cikkek_list%C3%A1ja"
+              >Kiemelt szócikkek</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://hu.wikipedia.org/wiki/Speci%C3%A1lis:Friss_v%C3%A1ltoztat%C3%A1sok?hidebots=1&hidecategorization=1&hideWikibase=1&limit=50&days=7&urlversion=2"
+              title="A wikiben történt friss változások"
+              >Friss változtatások</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://wikipedia.org/wiki/Speci%C3%A1lis:Lap_tal%C3%A1lomra"
+              title="Egy véletlenszerűen kiválasztott lap betöltése [alt-shift-x]"
+              accesskey="x"
+              ><span>Lap találomra</span></a
+            >
+          </li>
+          <li>
+            <a href="https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:Tudakoz%C3%B3"
+              >Tudakozó</a
+            >
+          </li>
+          <br />
+          <li>Részvétel</li>
+          <hr />
+          <li>
+            <a
+              href="https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:%C3%9Aj_szerkeszt%C5%91knek"
+              >Kezdőknek</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:Seg%C3%ADts%C3%A9g"
+              >Segítség</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://hu.wikipedia.org/wiki/Port%C3%A1l:K%C3%B6z%C3%B6ss%C3%A9g"
+              title="A projektről, mit hol találsz meg, miben segíthetsz"
+              >Közösségi portál</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:Kapcsolatfelv%C3%A9tel"
+              >Kapcsolatfelvétel</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://donate.wikimedia.org/w/index.php?title=Special:LandingPage&country=HU&uselang=hu&utm_medium=sidebar&utm_source=donate&utm_campaign=C13_hu.wikipedia.org"
+              >Adományok</a
+            >
+          </li>
+          <br />
+          <li>Eszközök</li>
+          <hr />
+          <li>
+            <a
+              href="https://hu.wikipedia.org/wiki/Speci%C3%A1lis:Mi_hivatkozik_erre/Horoszk%C3%B3p"
+              target="_blank"
+              >Mi hivatkozik erre?</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://hu.wikipedia.org/wiki/Speci%C3%A1lis:Kapcsol%C3%B3d%C3%B3_v%C3%A1ltoztat%C3%A1sok?hidebots=1&hidecategorization=1&hideWikibase=1&target=Horoszk%C3%B3p&limit=50&days=7&urlversion=2"
+              >Kapcsolódó változtatások</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://hu.wikipedia.org/wiki/Speci%C3%A1lis:Speci%C3%A1lis_lapok"
+              >Speciális lapok</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://hu.wikipedia.org/w/index.php?title=Horoszk%C3%B3p&oldid=25632296"
+              >Hivatkozás erre a változatra</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://hu.wikipedia.org/w/index.php?title=Horoszk%C3%B3p&action=info"
+              >Lapinformációk</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://hu.wikipedia.org/w/index.php?title=Speci%C3%A1lis:Hivatkoz%C3%A1s&page=Horoszk%C3%B3p&id=25632296&wpFormIdentifier=titleform"
+              >Hogyan hivatkozz erre a lapra?</a
+            >
+          </li>
+          <li>
+            <a href="https://www.wikidata.org/wiki/Special:EntityPage/Q188518"
+              >Wikidata-adatlap</a
+            >
+          </li>
+          <br />
+          <li>Nyomtatás/ exportálás</li>
+          <hr />
+          <li>
+            <a
+              href="https://hu.wikipedia.org/w/index.php?title=Speci%C3%A1lis:K%C3%B6nyv&bookcmd=book_creator&referer=Horoszk%C3%B3p"
+              >Könyv készítése</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://hu.wikipedia.org/w/index.php?title=Speci%C3%A1lis:DownloadAsPdf&page=Horoszk%C3%B3p&action=show-download-screen"
+              >Letöltés PDF-ként</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://hu.wikipedia.org/w/index.php?title=Horoszk%C3%B3p&printable=yes"
+              >Nyomtatható változat</a
+            >
+          </li>
+          <br />
+          <li>Társlapok</li>
+          <hr />
+          <li>
+            <a href="https://commons.wikimedia.org/wiki/Category:Horoscopes"
+              >Wikimédia Commons</a
+            >
+          </li>
+          <br />
+          <li>Más nyelveken</li>
+          <hr />
+          <li><a href="https://en.wikipedia.org/wiki/Horoscope">English</a></li>
+          <li><a href="https://de.wikipedia.org/wiki/Horoskop">Deutsch</a></li>
+          <li>
+            <a href="https://fr.wikipedia.org/wiki/Th%C3%A8me_astrologique"
+              >Français</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%81%E0%A4%A3%E0%A5%8D%E0%A4%A1%E0%A4%B2%E0%A5%80"
+              >हिन्दी</a
+            >
+          </li>
+          <li><a href="https://hr.wikipedia.org/wiki/Horoskop">Hrvatski</a></li>
+          <li><a href="https://ro.wikipedia.org/wiki/Horoscop">Română</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <ul class="flexnav">
+          <li>&#x263B; nem vagy bejelentkezve</li>
+          <li>
+            <a href="https://hu.wikipedia.org/wiki/Speci%C3%A1lis:Vit%C3%A1m"
+              >vitalap</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://hu.wikipedia.org/wiki/Speci%C3%A1lis:K%C3%B6zrem%C5%B1k%C3%B6d%C3%A9seim"
+              >közreműködések</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://hu.wikipedia.org/w/index.php?title=Speci%C3%A1lis:Szerkeszt%C5%91i_fi%C3%B3k_l%C3%A9trehoz%C3%A1sa&returnto=Horoszk%C3%B3p"
+              >fiók létrehozása</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://hu.wikipedia.org/w/index.php?title=Speci%C3%A1lis:Bel%C3%A9p%C3%A9s&returnto=Horoszk%C3%B3p"
+              >bejelentkezés</a
+            >
+          </li>
+        </ul>
+        <nav id="navbar">
+          <ul id="navul">
+            <li id="szócikk"><a href="#szócikk">szócikk</a></li>
+            <li>
+              <a href="https://hu.wikipedia.org/wiki/Vita:Horoszk%C3%B3p"
+                >vitalap</a
+              >
+            </li>
+            <li id="widespace"><a href="#szócikk">olvasás</a></li>
+            <li>
+              <a
+                href="https://hu.wikipedia.org/w/index.php?title=Horoszk%C3%B3p&action=edit"
+                >szerkesztés</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://hu.wikipedia.org/w/index.php?title=Horoszk%C3%B3p&action=history"
+                >laptrörténet</a
+              >
+            </li>
+            <li id="searchbar">
+              <form class="example" action="action_page.php">
+                <input
+                  type="text"
+                  placeholder="Keresés a Wikipédián"
+                  name="search"
+                />
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </li>
+          </ul>
+        </nav>
+        <div id="text">
+          <h2>
+            Horoszkóp
+            <b
+              >[<a
+                href="https://hu.wikipedia.org/w/index.php?title=Asztrol%C3%B3gia&action=edit&section=0&editintro=MediaWiki:Editintro-section-0"
+                >bevezető szerkesztése</a
+              >]</b
+            >
+          </h2>
+          <p class="smallcap">A Wikipédiából, a szabad enciklopédiából</p>
+          <br />
+          <div class="container">
+            <p class="mediumcap">
+              A <b>horoszkóp</b> (görögül: <i>horoszkoposz</i>, „óranézés”) az
+
+              <a
+                id="asztrologia"
+                href="https://hu.wikipedia.org/wiki/Asztrol%C3%B3gia"
+              >
+                asztrológia</a
+              >
+              hiedelemrendszere szerint a
+              <a href="https://hu.wikipedia.org/wiki/Nap">Nap</a>, a
+              <a href="https://hu.wikipedia.org/wiki/Hold">Hold</a>, a
+              <a href="https://hu.wikipedia.org/wiki/Naprendszer"
+                >Naprendszer</a
+              >
+              bolygói és a 12
+              <a
+                href="https://hu.wikipedia.org/wiki/%C3%81llat%C3%B6v#%C3%81llat%C3%B6vi_jegyek_az_asztrol%C3%B3gi%C3%A1ban"
+                >állatövi jegy</a
+              >
+              helyzete egy adott pillanatban, általában egy személy születése
+              idején, vagy életének fontos fordulópontján feltüntető ábra az
+              esemény idejére és földrajzi helyére felállítva. Segítségével az
+              „asztrológus” következtetéseket von le az adott ember sorsáról,
+              jelleméről, betegségi hajlamairól stb. A horoszkóp az asztrológus
+              szerint az általa megállapított szimbolikus üzenetet hordoz. Nem
+              okozója, csak mutatója az eseményeknek.
+              <sup><a href="#1">[1]</a></sup> Több fajtája van, például
+              radixhoroszkóp (az egyén életének „térképe”), szolár- és
+              lunárhoroszkóp (éves, illetve havi előrejelzés), vagy a
+              kérdőhoroszkóp, melyből egy adott kérdésre keresnek választ.
+            </p>
+            <div class="caption">
+              <img src="250px-Milenio.png" alt="egy Horoszkóp" />
+              <p class="figcap">
+                Egy horoszkóp (2001. január 1., 0:00,
+                <a href="https://hu.wikipedia.org/wiki/S%C3%A3o_Paulo"
+                  >São Paulo</a
+                >)
+              </p>
+            </div>
+            <div id="tableofcontents">
+              <h4>Tartalomjegyzék</h4>
+              <ol type="1">
+                <li>
+                  <a href="#Alapelemei">Alapelemei</a>
+                </li>
+                <li>
+                  <a href="#Megbízhatóság">Megbízhatóság</a>
+                </li>
+                <li>
+                  <a href="#Jegyzetek">Jegyzetek</a>
+                </li>
+                <li>
+                  <a href="#tovabbiinfo">További információk</a>
+                </li>
+                <li>
+                  <a href="#kapcsolodoszocikk">Kapcsolódó szócikkek</a>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <h2 id="Alapelemei">
+            Alapelemei
+            <b
+              >[<a
+                href="https://hu.wikipedia.org/w/index.php?title=Horoszk%C3%B3p&action=edit&section=1"
+                target="_blank"
+                >szerkesztés</a
+              >]</b
+            >
+          </h2>
+          <div class="container">
+            <ul class="mediumcap">
+              <li>
+                12
+                <a
+                  href="https://hu.wikipedia.org/wiki/%C3%81llat%C3%B6v#%C3%81llat%C3%B6vi_jegyek_az_asztrol%C3%B3gi%C3%A1ban"
+                  >állatövi jegy</a
+                >
+              </li>
+              <li>
+                10 égitest (<a href="https://hu.wikipedia.org/wiki/Nap">Nap</a
+                >,<a href="https://hu.wikipedia.org/wiki/Hold">Hold</a
+                >,Merkúr,Vénusz,Mars,Jupiter,Szaturnusz,Uránusz,Neptunusz,Plútó)
+              </li>
+              <li>12 (asztrológiai ház)</li>
+              <li>
+                <a href="https://hu.wikipedia.org/wiki/F%C3%A9nysz%C3%B6g"
+                  >Fényszögek</a
+                >
+                (A bolygók egymáshoz való viszonyát jelölik.)
+              </li>
+            </ul>
+            <h2 class="divh2" id="Megbízhatóság">
+              Megbízhatóság
+              <b
+                >[<a
+                  href="https://hu.wikipedia.org/wiki/Horoszk%C3%B3p?action=edit&section=2"
+                  target="_blank"
+                  >szerkesztés</a
+                >]</b
+              >
+            </h2>
+            <p class="mediumcap absolute">
+              A horoszkópok megbízhatóságát egyetlen tudományos vizsgálat sem
+              igazolja, módszerei
+              <a href="https://hu.wikipedia.org/wiki/%C3%81ltudom%C3%A1ny"
+                >áltudományos</a
+              >
+              jellegűek. <sup><a href="#2">[2]</a></sup> A mai tudomány szerint
+              nem létezik kapcsolat egy személy és az égitestek látszólagos égi
+              pozíciója között.<sup><a href="#3">[3]</a></sup> Tudományos,
+              „kettős vak” kísérletekkel, kontrollcsoport bevonásával igazolták,
+              hogy a horoszkópoknak semmiféle valóságtartalmuk nincs a
+              véletlenen kívül.<sup><a href="#4">[4]</a></sup>
+              <a href="https://hu.wikipedia.org/wiki/Pszichol%C3%B3gia"
+                >Pszichológiai</a
+              >
+              tesztekkel igazolták, hogy lehetséges olyan általános
+              személyleírásokat és jóslatokat megfogalmazni, amelyek a
+              nagyközönség számára érvényesnek, reálisnak tűnnek (lásd:
+              <a href="https://hu.wikipedia.org/wiki/Forer-hat%C3%A1s"
+                >Forer-hatás</a
+              >).
+            </p>
+
+            <div class="caption">
+              <img
+                src="330px-Horoscope_of_János_Corvin.jpg"
+                alt="Corvin János horoszkópja"
+              />
+              <p class="figcap">
+                <a href="https://hu.wikipedia.org/wiki/Corvin_J%C3%A1nos"
+                  >Corvin János</a
+                >
+                születésekor készített horoszkópja
+              </p>
+            </div>
+          </div>
+          <h2 id="Jegyzetek">
+            Jegyzetek
+            <b
+              >[<a
+                href="https://hu.wikipedia.org/wiki/Horoszk%C3%B3p?action=edit&section=3"
+                target="_blank"
+                >szerkesztés</a
+              >]</b
+            >
+          </h2>
+          <ol id="source">
+            <li id="1">
+              <a
+                href="https://web.archive.org/web/20201106121528/http://www.ezo-info.hu/"
+                >www.ezo-info.hu.</a
+              >
+              [2020. november 6-i dátummal az eredetiből archiválva].
+              (Hozzáférés: 2021. március 6.)
+            </li>
+            <li id="2">
+              Thagard, Paul R. (1978). „<a
+                href="http://www.helsinki.fi/teoreettinenfilosofia/oppimateriaali/Sintonen/Paul_R._Thagard_-_Why_Astrology_Is_A_Pseudoscience.pdf"
+                >Why Astrology is a Pseudoscience</a
+              >”. Proceedings of the Biennial Meeting of the Philosophy of
+              Science Association 1, 223–234. o, Kiadó: The University of
+              Chicago Press.
+            </li>
+            <li id="3">
+              szerk.: Peter D. Asquith:
+              <a href="http://www.cavehill.uwi.edu/bnccde/PH29A/thagard.html"
+                >Proceedings of the Biennial Meeting of the Philosophy of
+                Science Association, vol. 1.</a
+              >
+              Dordrecht u.a.: Reidel u.a. (1978).
+              <a
+                href="https://hu.wikipedia.org/wiki/Speci%C3%A1lis:K%C3%B6nyvforr%C3%A1sok/978-0-917586-05-7"
+                >ISBN 978-0-917586-05-7</a
+              >
+            </li>
+            <li id="4">
+              Zarka, Philippe (2011). „Astronomy and astrology”. Proceedings of
+              the International Astronomical Union 5 (S260), 420–425. o.
+              <a href="https://dx.doi.org/10.1017/S1743921311002602"
+                >DOI:10.1017/S1743921311002602.</a
+              >
+            </li>
+          </ol>
+          <h2 id="tovabbiinfo">
+            További információk
+            <b
+              >[<a
+                href="https://hu.wikipedia.org/wiki/Horoszk%C3%B3p?action=edit&section=4"
+                target="_blank"
+                >szerkesztés</a
+              >]</b
+            >
+          </h2>
+          <ul class="mediumcap">
+            <li>
+              <a href="http://horoszkop.lap.hu/"
+                >Horoszkóp.lap.hu - tematikus linkgyűjtemény</a
+              >
+            </li>
+            <li>
+              <a
+                id="notedited"
+                href="https://hu.wikipedia.org/w/index.php?title=Hanula_Zsolt&action=edit&redlink=1"
+                >Hanula Zsolt:</a
+              >
+              <a
+                href="https://index.hu/tudomany/til/2015/05/18/a_britek_titkos_fegyvere_hitler_ellen_a_horoszkop/"
+                >A britek titkos fegyvere Hitler ellen: a horoszkóp</a
+              >(HTML).
+              <a href="https://hu.wikipedia.org/wiki/Index.hu">Index</a>, 2015.
+              május 18.
+            </li>
+          </ul>
+          <h2 id="kapcsolodoszocikk">
+            Kapcsolódó szócikkek
+            <b
+              >[<a
+                href="https://hu.wikipedia.org/wiki/Horoszk%C3%B3p?action=edit&section=5"
+                target="_blank"
+                >szerkesztés</a
+              >]</b
+            >
+          </h2>
+          <ul class="mediumcap">
+            <li>
+              <a href="https://hu.wikipedia.org/wiki/Forer-hat%C3%A1s"
+                >Forer-hatás</a
+              >
+            </li>
+          </ul>
+          <p class="mediumcap" id="categorie">
+            <a
+              href="https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:Kateg%C3%B3ri%C3%A1k"
+              >Kategória:</a
+            >
+            <a
+              href="https://hu.wikipedia.org/wiki/Kateg%C3%B3ria:Asztrol%C3%B3gia"
+              >Asztrológia</a
+            >
+            |
+            <a
+              href="https://hu.wikipedia.org/wiki/Kateg%C3%B3ria:%C3%81ltudom%C3%A1nyok"
+              >Áltudományok</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>A lap utolsó módosítása : 2022. december 22., 23:37</p>
+      <p>
+        A lap szövege
+        <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.hu"
+          >Creative Commons Nevezd meg! – Így add tovább! 3.0</a
+        >
+        licenc alatt van; egyes esetekben más módon is felhasználható.
+        Részletekért lásd a
+        <a
+          href="https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:Felhaszn%C3%A1l%C3%A1si_felt%C3%A9telek"
+          >felhasználási feltételeket</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
