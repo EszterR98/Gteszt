@@ -1,0 +1,75 @@
+
+{
+  "orszagok": [
+    {
+      "orszag": "Magyarország",
+      "terulet": 93028,
+      "nepesseg": 9773000,
+      "gdp": 168975,
+      "zaszlo": "piros, fehér, zöld"
+    },
+    {
+      "orszag": "Németország",
+      "terulet": 357022,
+      "nepesseg": 83190556,
+      "gdp": 3845687,
+      "zaszlo": "fekete, piros, sárga"
+    },
+    {
+      "orszag": "Egyesült Királyság",
+      "terulet": 242500,
+      "nepesseg": 67530172,
+      "gdp": 2701583,
+      "zaszlo": "kék, piros, fehér"
+    },
+    {
+      "orszag": "Franciaország",
+      "terulet": 551695,
+      "nepesseg": 67391582,
+      "gdp": 2930029,
+      "zaszlo":"kék, fehér, piros"
+    },
+    {
+      "orszag": "Olaszország",
+      "terulet": 301340,
+      "nepesseg": 60367498,
+      "gdp": 2153033,
+      "zaszlo":"zöld, fehér, piros"
+    },
+    {
+      "orszag": "Spanyolország",
+      "terulet": 505990,
+      "nepesseg": 47329981,
+      "gdp": 1403035,
+      "zaszlo":"piros, sárga"
+    },
+    {
+      "orszag": "Görögország",
+      "terulet": 131957,
+      "nepesseg": 10715549,
+      "gdp": 203086,
+      "zaszlo":"kék, fehér"
+    },
+    {
+      "orszag": "Csehország",
+      "terulet": 78866,
+      "nepesseg": 10693939,
+      "gdp": 249677,
+      "zaszlo":"fehér, kék, piros"
+    },
+    {
+      "orszag": "Lengyelország",
+      "terulet": 312696,
+      "nepesseg": 37854825,
+      "gdp": 595944,
+      "zaszlo": "fehér, piros"
+    },
+    {
+      "orszag": "Svédország",
+      "terulet": 450295,
+      "nepesseg": 10353456,
+      "gdp": 530606,
+      "zaszlo":"kék, sárga"
+    }
+  ]
+}
